@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="menu" onclick="onClickinst()">
+    <div id="id1" class="inst" >
+      <div class="bar1 bar"></div>
+      <div class="bar2 bar"></div>
+      <div class="bar3 bar"></div>
+    </div> 
+
+    <div id="id2" class="content">
+        <ul>
+          <li>🎮 Set up the game: Refresh the page and get ready to start!</li>
+
+          <li>🎵 Simon speaks: Watch to Simon as he plays a sequence of colors. Pay close attention!</li>
+    
+          <li>🔄 Repeat the sequence: After Simon's turn, it's your turn! Repeat the exact same sequence of colors and sounds in the same order.</li>
+    
+          <li>✔️ Correct? Well done! 🎉</li>
+    
+          <li>❌ Wrong? If you make a mistake, Don't worry; you can try again! Just refresh the page.<br></li>
+    
+          <li>➕ Increasing difficulty: As you progress, Simon will keep adding more colors and sounds to the sequence, making it more challenging.</li>
+    
+          <li>🏆 High score: Try to beat your previous level by remembering and repeating longer sequences!</li>
+    
+          <li>🔄 Continue playing: The game keeps going with Simon adding to the sequence each time.</li>
+    
+          <li>Have fun playing the Simon game! 🎉</li>
+        </ul>
+        
+    </div>
+  </div>
+  
+
+  <h1 id="level-title"> Press A Key to Start </h1>
+
+  
+
+  <div class="container">
+
+    
+
+    <div class="main-circle">
+      <div type="button" id="green" class="green pos"></div>
+      <div type="button" id="red" class="red pos"></div>
+      <div type="button" id="yellow" class="yellow pos"></div>
+      <div type="button" id="blue" class="blue pos"></div>
+
+        <div class="inner-circle"></div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
